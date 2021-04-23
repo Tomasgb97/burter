@@ -336,7 +336,30 @@ text-shadow:
     transition: 0.3s
 }
 
-@media all and (max-width: 380px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 380px){ /*for iphone X*/
 
     #burter{
     top: 19vh;
@@ -441,6 +464,52 @@ text-shadow:
 
     }
     
+
+    
+    @media all and (max-width: 330px ) and (max-height: 580px){ /*for iphone 5/se */
+
+
+        #burter{
+
+            top: 18vh;}
+
+        #logo{
+
+            top: 17vh;}
+
+        #navtabs{
+
+            left: 7vw;
+            width: 49vh;}
+
+       #sponsors{
+
+        top: 38vh;
+        left: 7vw;
+        width: 49vh;}
+        
+        #welcome p{
+
+            width: 79vw;}
+
+        .homecontainer{
+
+            width: 84vw;
+            left: 7vw;
+            top: 49vh;
+            border: 11px solid white;
+            height: 49vh;
+            box-sizing: border-box;}
+
+        #map{
+
+            top: 52vh;}
+
+
+    }
+        
+
+
     
 
 
