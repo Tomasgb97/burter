@@ -552,10 +552,10 @@ text-shadow:
         
             #navtabs{
                 top: 30vh;
-                left: 7vw;
+                left: 5vw;
                 flex-direction: row;
                 height: 14vw;
-                width: 48vh;}
+                width: 89vw;}
             
             .divisor{
         
@@ -572,10 +572,10 @@ text-shadow:
         
             #sponsors{
         
-                width: 48vh;
+                width: 89vw;
                 height: 15vw;
                 top: 40vh;
-                left: 7vw;
+                left: 5vw;
                 flex-direction: row;}
         
             .sponsimg{
