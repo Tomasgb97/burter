@@ -140,6 +140,7 @@ text-shadow:
 .tab:focus{
 
     text-decoration: underline;
+    outline: none;
 }
 #welcome{
 
