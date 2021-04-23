@@ -359,7 +359,7 @@ text-shadow:
 
 
 
-@media all and (max-width: 380px){ /*for iphone X*/
+@media screen and(max-width: 380px){ /*for iphone X*/
 
     #burter{
     top: 19vh;
@@ -481,7 +481,7 @@ text-shadow:
     
 
     
-    @media all and (max-width: 330px ) and (max-height: 580px){ /*for iphone 5/se */
+    @media screen and (max-width: 330px ){ /*for iphone 5/se */
 
 
         #burter{
@@ -537,7 +537,7 @@ text-shadow:
 
 
 
-    @media all and (min-width: 400px) and (max-width: 500px){  /* for xiaomi mi9*/
+    @media screen and (max-width: 400px){  /* for xiaomi mi9*/
 
 
         #burter{
@@ -547,15 +547,15 @@ text-shadow:
             
             #logo{
                 width: 23vw;
-                top: 19vh;
+                top: 17vh;
                 left: 0vw;}
         
             #navtabs{
-                top: 28vh;
-                left: 1vw;
+                top: 30vh;
+                left: 7vw;
                 flex-direction: row;
                 height: 14vw;
-                width: 44vh;}
+                width: 48vh;}
             
             .divisor{
         
@@ -572,10 +572,10 @@ text-shadow:
         
             #sponsors{
         
-                width: 44vh;
+                width: 48vh;
                 height: 15vw;
-                top: 36vh;
-                left: 1vw;
+                top: 40vh;
+                left: 7vw;
                 flex-direction: row;}
         
             .sponsimg{
@@ -583,7 +583,7 @@ text-shadow:
         
             #welcome{
         
-                left: 32vw;}
+                left: 30vw;}
         
             #welcome h2{
         
@@ -596,7 +596,8 @@ text-shadow:
         
         
             .homecontainer{
-        
+                
+                top: 53vh;
                 width: 67vw;
                 left: 13vw;
                 height: 44vh;}
@@ -614,7 +615,7 @@ text-shadow:
         
                 width: 70vw;
                 left: 17vw;
-                top: 47vh;
+                top: 53vh;
                 height: 30vh;}
         
             #contactus{
@@ -638,7 +639,7 @@ text-shadow:
                 top: 45vh;
                 height: 75vh;
                 width: 121vw;
-                left: -10vw;
+                left: -11vw;
                 justify-content: space-evenly;
             }
 
