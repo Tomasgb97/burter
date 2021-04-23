@@ -360,7 +360,7 @@ text-shadow:
 
 
 
-@media screen and(max-width: 380px){ /*for iphone X*/
+@media screen and (min-width: 331px) and (max-width: 380px){ /*for iphone X*/
 
     #burter{
     top: 19vh;
@@ -374,10 +374,10 @@ text-shadow:
 
     #navtabs{
         top: 28vh;
-        left: 1vw;
+        left: 4vw;
         flex-direction: row;
         height: 14vw;
-        width: 45vh;}
+        width: 88vw;}
     
     .divisor{
 
@@ -394,10 +394,10 @@ text-shadow:
 
     #sponsors{
 
-        width: 45vh;
+        width: 88vw;
         height: 15vw;
         top: 36vh;
-        left: 1vw;
+        left: 4vw;
         flex-direction: row;}
 
     .sponsimg{
@@ -434,8 +434,8 @@ text-shadow:
     #map{
 
         width: 70vw;
-        left: 17vw;
-        top: 47vh;
+        left: 15vw;
+        top: 52vh;
         height: 30vh;}
 
     #contactus{
@@ -455,10 +455,10 @@ text-shadow:
 
     #menucontainer{
 
-        top: 45vh;
+        top: 48vh;
         height: 75vh;
         width: 121vw;
-        left: -9vw;
+        left: -11vw;
         justify-content: space-evenly;
     }
 
@@ -484,45 +484,111 @@ text-shadow:
     
     @media screen and (max-width: 330px ){ /*for iphone 5/se */
 
-
         #burter{
-
-            top: 18vh;}
-
-        #logo{
-
-            top: 17vh;}
-
-        #navtabs{
-
-            left: 7vw;
-            width: 49vh;}
-
-       #sponsors{
-
-        top: 38vh;
-        left: 7vw;
-        width: 49vh;}
+            top: 19vh;
+            left: 24vw;
+            font-size: 9vw;}
+            
+            #logo{
+                width: 23vw;
+                top: 17vh;
+                left: 0vw;}
         
-        #welcome p{
+            #navtabs{
+                top: 30vh;
+                left: 2vw;
+                flex-direction: row;
+                height: 14vw;
+                width: 88vw;}
+            
+            .divisor{
+        
+                width: 8%;}
+        
+        
+            .tab{
+        
+                font-size: 4vw;}
+        
+            #imgside{
+        
+                display: none;}
+        
+            #sponsors{
+        
+                width: 88vw;
+                height: 15vw;
+                top: 40vh;
+                left: 2vw;
+                flex-direction: row;
+            }
+        
+            .sponsimg{
+                width: 14%;}
+        
+            #welcome{
+        
+                left: 28vw;}
+        
+            #welcome h2{
+        
+                font-size: 13vw;}
+        
+            #welcome p{
+        
+                width: 67vw;}
+        
+        
+            .homecontainer{
+        
+                width: 64vw;
+                left: 9vw;
+                height: 43vh;
+                top: 57vh;}
+        
+            .homeheader{
+        
+                font-size: 6vw;}
+        
+            .hometext{
+        
+                font-size: 3vw;
+                line-height: 1.5;}
+        
+            #map{
+        
+                width: 70vw;
+                left: 12vw;
+                top: 53vh;
+                height: 30vh;}
+        
+            #contactus{
+        
+                left: 26vw;
+                top: 82vh;}
+        
+            #divmedia{
+        
+                width: 80vw;
+                left: 7.7vw;
+                bottom: 3vh;}
+        
+            .media{
+        
+                font-size: 9vw;}
+        
+            #menucontainer{
+        
+                top: 48vh;
+                height: 75vh;
+                width: 121vw;
+                left: -14vw;
+                justify-content: space-evenly;
+            }
+        }
 
-            width: 79vw;}
 
-        .homecontainer{
-
-            width: 84vw;
-            left: 7vw;
-            top: 49vh;
-            border: 11px solid white;
-            height: 49vh;
-            box-sizing: border-box;}
-
-        #map{
-
-            top: 52vh;}
-
-
-    }
+    
 
 
 
@@ -538,7 +604,7 @@ text-shadow:
 
 
 
-    @media screen and (max-width: 500px){  /* for xiaomi mi9*/
+    @media screen and (min-width: 380px) and (max-width: 500px){  /* for xiaomi mi9*/
 
 
         #burter{
