@@ -335,3 +335,112 @@ text-shadow:
     transform: scale(1.02);
     transition: 0.3s
 }
+
+@media all and (max-width: 380px){
+
+    #burter{
+    top: 19vh;
+    left: 24vw;
+    font-size: 9vw;}
+    
+    #logo{
+        width: 23vw;
+        top: 19vh;
+        left: 0vw;}
+
+    #navtabs{
+        top: 28vh;
+        left: 1vw;
+        flex-direction: row;
+        height: 14vw;
+        width: 45vh;}
+    
+    .divisor{
+
+        width: 8%;}
+
+
+    .tab{
+
+        font-size: 4vw;}
+
+    #imgside{
+
+        display: none;}
+
+    #sponsors{
+
+        width: 45vh;
+        height: 15vw;
+        top: 36vh;
+        left: 1vw;
+        flex-direction: row;}
+
+    .sponsimg{
+        width: 14%;}
+
+    #welcome{
+
+        left: 32vw;}
+
+    #welcome h2{
+
+        font-size: 13vw;}
+
+    #welcome p{
+
+        width: 67vw;}
+
+
+    .homecontainer{
+
+        width: 67vw;
+        left: 13vw;
+        height: 44vh;}
+
+    .homeheader{
+
+        font-size: 6vw;}
+
+    .hometext{
+
+        font-size: 3vw;
+        line-height: 1.5;}
+
+    #map{
+
+        width: 70vw;
+        left: 17vw;
+        top: 47vh;
+        height: 30vh;}
+
+    #contactus{
+
+        left: 31vw;
+        top: 82vh;}
+
+    #divmedia{
+
+        width: 80vw;
+        left: 11.7vw;
+        bottom: 3vh;}
+
+    .media{
+
+        font-size: 9vw;}
+
+    #menucontainer{
+
+        top: 45vh;
+        height: 75vh;
+        width: 121vw;
+        left: -9vw;
+        justify-content: space-evenly;
+    }
+
+
+    }
+    
+    
+
+
