@@ -535,8 +535,9 @@ text-shadow:
         
             #welcome{
         
-                left: 26vw;
-                height: 266px;}
+                position: static;
+                margin-left: 31%;
+                height: 278px;}
         
             #welcome h2{
         
