@@ -362,105 +362,121 @@ text-shadow:
 
 @media screen and (min-width: 331px) and (max-width: 380px){ /*for iphone X*/
 
-    #burter{
-    top: 19vh;
-    left: 24vw;
-    font-size: 9vw;}
-    
-    #logo{
-        width: 23vw;
-        top: 19vh;
-        left: 0vw;}
+    #header{
 
-    #navtabs{
-        top: 28vh;
-        left: 4vw;
+        display: flex;
         flex-direction: row;
-        height: 14vw;
-        width: 88vw;}
-    
-    .divisor{
-
-        width: 8%;}
-
-
-    .tab{
-
-        font-size: 4vw;}
-
-    #imgside{
-
-        display: none;}
-
-    #sponsors{
-
-        width: 88vw;
-        height: 15vw;
-        top: 36vh;
-        left: 4vw;
-        flex-direction: row;}
-
-    .sponsimg{
-        width: 14%;}
-
-    #welcome{
-
-        left: 32vw;}
-
-    #welcome h2{
-
-        font-size: 13vw;}
-
-    #welcome p{
-
-        width: 67vw;}
-
-
-    .homecontainer{
-
-        width: 67vw;
-        left: 13vw;
-        height: 44vh;}
-
-    .homeheader{
-
-        font-size: 6vw;}
-
-    .hometext{
-
-        font-size: 3vw;
-        line-height: 1.5;}
-
-    #map{
-
-        width: 70vw;
-        left: 15vw;
-        top: 52vh;
-        height: 30vh;}
-
-    #contactus{
-
-        left: 31vw;
-        top: 82vh;}
-
-    #divmedia{
-
-        width: 80vw;
-        left: 11.7vw;
-        bottom: 3vh;}
-
-    .media{
-
-        font-size: 9vw;}
-
-    #menucontainer{
-
-        top: 48vh;
-        height: 75vh;
-        width: 121vw;
-        left: -11vw;
-        justify-content: space-evenly;
+        justify-content: end;
+        align-items: flex-end;
     }
+    #burter{
+        margin: 0px;
+        position: static;
+        font-size: 182%;}
+        
+        #logo{
+            width: 24%;
+            position: static;}
+    
+        #navtabs{
+            position: static;
+            margin-top: 10px;
+            margin-left: 6%;
+            flex-direction: row;
+            width: 86%;
+            height: 48px;}
+        
+        .divisor{
+    
+            width: 8%;}
+    
+    
+        .tab{
+    
+            font-size: 4vw;}
+    
+        #imgside{
+    
+            display: none;}
+    
+        #sponsors{
+    
+            position: static;
+            margin-top: 7px;
+            margin-left: 6%;
+            width: 86%;
+            height: 48px;
+            flex-direction: row;}
+    
+        .sponsimg{
+            width: 14%;}
+    
+        #welcome{
+    
+            position: static;
+            margin-left: 31%;
+            height: 278px;}
+    
+        #welcome h2{
+    
+            font-size: 196%;
+            position: static;
+            margin-bottom: 0px;}
+    
+        #welcome p{
+    
+            width: 199%;}
+    
+    
+        .homecontainer{
+    
+            position: static;
+            margin-top: 30px;
+            margin-left: 12%;
+            height: 230px;
+            width: 63%;}
+    
+        .homeheader{
+    
+            font-size: 6vw;}
+    
+        .hometext{
+    
+            font-size: 3vw;
+            line-height: 1.5;}
+    
+        #map{
+            position: sticky !important;
+            margin-top: -242px;
+            width: 70%;
+            height: 124px;
+            margin-right: 15%;}
+    
+        #contactus{
+    
+            position: static;
+            margin-top: 222px;
+            margin-left: 35%;
+            font-size: 17px;;}
+    
+        #divmedia{
+    
+            position: static;
+            margin-left: 14%;
+            width: 71%;
+            margin-top: 28px;;}
+    
+        .media{
+    
+            font-size: 9vw;}
+    
+        #menucontainer{
+    
+            position: static;
+            width: 381px;
+            height: 360px;
+            justify-content: space-evenly;
+        }
 
 
     }
