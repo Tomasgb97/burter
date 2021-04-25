@@ -484,22 +484,29 @@ text-shadow:
     
     @media screen and (max-width: 330px ){ /*for iphone 5/se */
 
+        #header{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: flex-end;
+        }
         #burter{
-            top: 19vh;
-            left: 24vw;
-            font-size: 9vw;}
+            margin: 0px;
+            position: static;
+            font-size: 182%;}
             
             #logo{
-                width: 23vw;
-                top: 17vh;
-                left: 0vw;}
+                width: 24%;
+                position: static;}
         
             #navtabs{
-                top: 30vh;
-                left: 2vw;
+                position: static;
+                margin-top: 10px;
+                margin-left: 6%;
                 flex-direction: row;
-                height: 14vw;
-                width: 88vw;}
+                width: 86%;
+                height: 48px;}
             
             .divisor{
         
@@ -516,35 +523,39 @@ text-shadow:
         
             #sponsors{
         
-                width: 88vw;
-                height: 15vw;
-                top: 40vh;
-                left: 2vw;
-                flex-direction: row;
-            }
+                position: static;
+                margin-top: 7px;
+                margin-left: 6%;
+                width: 86%;
+                height: 48px;
+                flex-direction: row;}
         
             .sponsimg{
                 width: 14%;}
         
             #welcome{
         
-                left: 28vw;}
+                left: 26vw;
+                height: 266px;}
         
             #welcome h2{
         
-                font-size: 13vw;}
+                font-size: 196%;
+                position: static;
+                margin-bottom: 0px;}
         
             #welcome p{
         
-                width: 67vw;}
+                width: 199%;}
         
         
             .homecontainer{
         
-                width: 64vw;
-                left: 9vw;
-                height: 43vh;
-                top: 57vh;}
+                position: static;
+                margin-top: 30px;
+                margin-left: 12%;
+                height: 230px;
+                width: 63%;}
         
             .homeheader{
         
@@ -557,21 +568,24 @@ text-shadow:
         
             #map{
         
-                width: 70vw;
-                left: 12vw;
-                top: 53vh;
-                height: 30vh;}
+                position: fixed;
+                margin-left: 4%;
+                margin-top: -4px;
+                height: 157px;;}
         
             #contactus{
         
-                left: 26vw;
-                top: 82vh;}
+                position: static;
+                margin-top: 222px;
+                margin-left: 35%;
+                font-size: 17px;;}
         
             #divmedia{
         
-                width: 80vw;
-                left: 7.7vw;
-                bottom: 3vh;}
+                position: static;
+                margin-left: 14%;
+                width: 71%;
+                margin-top: 28px;;}
         
             .media{
         
@@ -579,10 +593,10 @@ text-shadow:
         
             #menucontainer{
         
-                top: 48vh;
-                height: 75vh;
-                width: 121vw;
-                left: -14vw;
+                position: static;
+                width: 331px;
+                margin-left: -2%;
+                height: 360px;
                 justify-content: space-evenly;
             }
         }
